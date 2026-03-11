@@ -11,6 +11,7 @@ function Main() {
             document.body.style.backgroundColor = color;
         },[color])
         console.log("second");
+        //order =>first ,second ,useEffect 
 
     return (
         <>
