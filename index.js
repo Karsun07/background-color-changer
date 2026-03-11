@@ -4,7 +4,10 @@ import ReactDOM from "react-dom/client";
 function Main() {
 
         const [color,setColor]=useState("black");
-        document.body.style.backgroundColor = color;
+        //useEffect(callbackFuntion,dependency)
+        useEffect(()=>{
+            document.body.style.backgroundColor = color;
+        },[color])
 
     return (
         <>
