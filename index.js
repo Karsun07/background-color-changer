@@ -5,9 +5,12 @@ function Main() {
 
         const [color,setColor]=useState("black");
         //useEffect(callbackFuntion,dependency)
+        console.log("first");
         useEffect(()=>{
+            console.log("useEffect executed");
             document.body.style.backgroundColor = color;
         },[color])
+        console.log("second");
 
     return (
         <>
