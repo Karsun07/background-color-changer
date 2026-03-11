@@ -8,11 +8,14 @@ function Main() {
     }
 
     return (
-        <div>
+        <>
+            <h1>Background Color Changer</h1>
+            <div className="container" >
             <button onClick={() => changeColor("red")}>Red</button>
             <button onClick={() => changeColor("yellow")}>Yellow</button>
             <button onClick={() => changeColor("pink")}>Pink</button>
-        </div>
+            </div>
+        </>
     );
 }
 
