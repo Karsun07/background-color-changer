@@ -14,6 +14,8 @@ function Main() {
             <button onClick={() => changeColor("red")}>Red</button>
             <button onClick={() => changeColor("yellow")}>Yellow</button>
             <button onClick={() => changeColor("pink")}>Pink</button>
+            <button onClick={()=>changeColor("blue")}>Blue</button>
+            <button onClick={()=>changeColor("orange")}>Orange</button>
             </div>
         </>
     );
